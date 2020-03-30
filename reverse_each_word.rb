@@ -1,5 +1,6 @@
 def reverse_each_word(x)
   x.split
+  puts  x
   reversed=[]
     x.each do |word|
       reversed << word.reverse
