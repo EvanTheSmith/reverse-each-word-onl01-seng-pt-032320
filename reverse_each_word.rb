@@ -1,7 +1,4 @@
-def reverse_each_word(string)
-    word = string.split
-    word.each do |spin|
-    spin.reverse
-  end
+def reverse_each_word(x)
+    x.each {|word| word.reverse}
   return word
 end
