@@ -1,9 +1,9 @@
 def reverse_each_word(intake)
-  intake.split
+  in_array = intake.split
   out_array = []
-    intake.each do |word|
+    in_array.each do |word|
     out_array << word.reverse
     end
-    out_array.join
-    return out_array
+    reversed_sentence = out_array.join
+    return reversed_sentence
 end
